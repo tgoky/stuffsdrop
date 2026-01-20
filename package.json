@@ -13,6 +13,7 @@
     "refine": "refine"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@refinedev/cli": "^2.16.48",
     "@refinedev/core": "^5.0.8",
     "@refinedev/devtools": "^2.0.1",
@@ -23,6 +24,7 @@
     "@refinedev/supabase": "^6.0.0",
     "@supabase/ssr": "^0.3.0",
     "@tanstack/react-table": "^8.2.6",
+    "antd": "^6.2.1",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.562.0",
     "next": "^15.2.4",
