@@ -1,0 +1,48 @@
+{
+  "name": "stuffsdrop",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "next lint",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@refinedev/cli": "^2.16.48",
+    "@refinedev/core": "^5.0.8",
+    "@refinedev/devtools": "^2.0.1",
+    "@refinedev/kbar": "^2.0.0",
+    "@refinedev/nextjs-router": "^7.0.0",
+    "@refinedev/react-hook-form": "^5.0.0",
+    "@refinedev/react-table": "^6.0.0",
+    "@refinedev/supabase": "^6.0.0",
+    "@supabase/ssr": "^0.3.0",
+    "@tanstack/react-table": "^8.2.6",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.562.0",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^4",
+    "typescript": "^5.8.3"
+  },
+  "refine": {
+    "projectId": "0YPykz-Anv7W2-T1lMdH"
+  }
+}
